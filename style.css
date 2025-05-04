@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.card-container {
+    background-color: #1F1F1F;
+    border-radius: 0.75rem;
+    margin: auto;
+
+}
+
+.card {
+    padding: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile-image {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+
+}
+
+.details {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+h1 {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+.location {
+    font-size: 0.875rem;
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+    margin-top: 0.25rem;
+}
+
+.tag-line {
+    font-size: 0.875rem;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.btn {
+    width: 19rem;
+    padding: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #333333;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1rem; 
+}
+
+.btn:hover {
+    background-color:  hsl(75, 94%, 57%);
+    color: #333333;
+}
+.margin{
+margin-bottom: 0rem;
+}
+
+@media (max-width: 480px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    
+    button:active {
+        background-color:  hsl(75, 94%, 57%);
+        color: #333333;
+    }
+}
+
+@media (max-width: 768px) {
+   
+}
+
+
+
