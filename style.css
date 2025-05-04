@@ -13,13 +13,16 @@ body {
     align-items: center;
     height: 100vh;
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
+    
 }
 
 .card-container {
     background-color: #1F1F1F;
     border-radius: 0.75rem;
     margin: auto;
+    max-width: 384px;
+    width: 100%;
 
 }
 
@@ -94,11 +97,11 @@ h1 {
 margin-bottom: 0rem;
 }
 
-@media (max-width: 480px) {
-
+@media (max-width: 480px) { 
     body{
-        overflow-x: hidden;
-    }
+        padding-left: 10px;
+        padding-right: 10px;
+    }  
     
     button:active {
         background-color:  hsl(75, 94%, 57%);
@@ -107,8 +110,19 @@ margin-bottom: 0rem;
 }
 
 @media (max-width: 768px) {
-   
+    body{
+        padding-left: 10px;
+        padding-right: 10px;
+    }  
+    
+    button:active {
+        background-color:  hsl(75, 94%, 57%);
+        color: #333333;
+    }
 }
+
+
+
 
 
 
